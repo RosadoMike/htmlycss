@@ -8,6 +8,6 @@ Universidad Tecnologica Metropolitana
 - Actividad:  Curriculum y mapa.
 - Cuatrimeste: 3
 - Grupo: F
-- Fecha: 8 De Mayo De 2024
+- Fecha: 24 De Mayo De 2024
 - Parcial: 1
 
