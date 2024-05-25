@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+   
+    
+    
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    
+}
+
+
+.foto
+{
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -990px;
+    left: 50px;
+    width: 210px; /* Ajusta el tamaño según tus necesidades */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin-right: auto;
+    border-radius: 2%; 
+    border-style:double;
+  
+    
+      
+}
+
+
+
+
+.header
+{
+    position: relative;
+    width: 1100px; /* Ocupa el 75% del ancho de la pantalla */
+    height: 1400px;
+    margin-top: 0; /* Espacio desde la parte superior */
+    margin:auto;
+    background-color: hsl(0, 47%, 58%); /* Color de fondo para destacar */
+    padding: 200px; /* Espacio interno alrededor del texto */
+    box-shadow: 10px 0px  110px #26e426c7; /* Sombra para un mejor diseño */
+     /* Establece la altura de línea en 1.5 veces el tamaño de la fuente */
+    
+    
+    border-radius: 50px; /* Un valor alto para crear bordes redondeados */
+    border-width: 5px; /* Ancho del borde */
+    border-style: solid; /* Estilo de borde sólido */
+  
+}
+.tex1
+{
+    font-family:'Times New Roman', Times, serif; /* Establece la fuente del texto */
+
+    font-size: 50px; 
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0px;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -210px;
+    left: 10px;
+}
+.text2
+{
+    font-family:'Times New Roman', Times, serif; /* Establece la fuente del texto */
+    letter-spacing: 3px;
+    font-size: 30px; /* Establece el tamaño de la fuente en 16 píxeles */
+    width: 1555px; /* Ocupa el 75% del ancho de la pantalla */
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -280px;
+    left: 3px;
+}
+
+
+
+.main
+{
+    
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1755px;
+    left: 300px;
+    width: 1170px;
+    padding: 1px;
+    border-radius: 0px;
+
+}
+
+.text3
+{
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: 0px;
+    left: 5px;
+    
+}
+
+.cont1
+{
+    background-color: #b38549;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1740px;
+    left: 300px;
+    width: 1100px;
+    padding: 35px;
+    border-radius: 20px;
+    
+ 
+}
+.text4
+{
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+.Experiencia
+{
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1725px;
+    left: 20px;
+    width: 1445px;
+    padding: 3px;
+    border-radius: 0px;
+}
+
+.text5
+{
+    font-size: 15px;
+    letter-spacing: 4px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cont2
+{
+    background-color: #b38549;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1710px;
+    left: 20px;
+    width: 1380px;
+    padding: 35px;
+    border-radius: 20px;
+}
+
+.text6
+{
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+
+
+.Educacion{
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1695px;
+    left: 20px;
+    width: 1445px;
+    padding: 3px;
+    border-radius: 0px;
+
+}
+
+.cont3
+{
+    background-color: #b38549;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1680px;
+    left: 20px;
+    width: 1410px;
+    padding: 20px;
+    border-radius: 20px;
+}  
+
+.text7
+{
+    font-size: 15px;
+    letter-spacing: 3px;
+   
+}
+
+.Capacidades
+{
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1665px;
+    left: 20px;
+    width: 1448px; 
+    padding: 3px;
+    border-radius: 0px;
+}
+
+
+.Lengua
+{
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1650px;
+    left: 20px;
+    width: 1448px; 
+    padding: 3px;
+    border-radius: 0px;
+}
+
+.text9
+{
+   color: rgb(179, 13, 13);
+   font-weight: bold; 
+}
+
+.cont4
+{
+    background-color: #b38549;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1635px;
+    left: 20px;
+    width: 1435px; 
+    padding: 10px;
+    border-radius: 20px; 
+}
+
+.idiomas
+{
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1625px;
+    left: 20px;
+    width: 1450px; 
+    padding: 3px;
+    border-radius: 0px;
+}
+
+.text10
+{
+    color: rgb(179, 13, 13);
+   font-weight: bold; 
+}
+
+.cont5
+{
+    background-color: #b38549;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1610px;
+    left: 20px;
+    width: 1435px; 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Capayap
+{
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1595px;
+    left: 20px;
+    width: 1450px; 
+    padding: 3px;
+    border-radius: 0px;
+
+}
+
+.text11
+{
+    color: rgb(179, 13, 13);
+    font-weight: bold;  
+}
+
+.cont6
+{
+    background-color: #b38549;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1578.5px;
+    left: 20px;
+    width: 1450px; 
+    padding: 3px;
+    border-radius: 20px;
+}
+
+.inf
+{
+    background-color: burlywood;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -1563px;
+    left: 20px;
+    width: 1450px; 
+    padding: 3px;
+    border-radius: 0px;
+}
+
+.text13
+{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    left: 600px;  
+       
+}
+
+.todo
+{
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -625px;
+}

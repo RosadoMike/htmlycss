@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maps</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGKCwfM236J2SoyyyLQdhuecvAPO1Fg68&callback=initMap" async defer></script>
+</head>
+<body>
+    <div class="fondo">
+    <div class="title">
+        REGISTRO A EVENTO
+    </div>
+
+    <div class="form-container">
+        <form id="eventForm">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" placeholder="Ingresa la fecha del evento" />
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Ingresa la dirección del evento" />
+            <button type="button" onclick="geocodeAddress()">Ubicar en el mapa</button>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" />
+            <label for="apellidos">Apellidos</label>
+            <input type="text" id="apellidos" name="apellidos" placeholder="Ingresa tus apellidos" />
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+
+    <div id="map" class="map"></div>
+</div>
+</body>
+</html>

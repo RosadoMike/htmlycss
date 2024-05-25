@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold; /* Negritas */
+    font-family: 'Arial Black', Gadget, sans-serif; /* Tipo de letra */
+  background-color: #f9f9f9;
+    border: 10px solid black;
+    z-index: 2;
+    
+}
+
+.form-container {
+
+    width: 300px;
+    margin: 20px auto; /* Añadido margen superior e inferior */
+    padding: 20px; /* Añadido para un poco de espacio interior */
+    background-color: #f9f9f9; /* Fondo de la tarjeta */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: 70px;
+    right: 530px;  
+    z-index: 2;
+
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-top: 10px;
+}
+
+.form-container input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.form-container button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #45a049;
+}
+
+.map {
+    height: 450px;
+    width: 50%;
+
+    position: relative; /* Asegura que las propiedades top y left funcionen */
+    top: -350px;
+    left: 700px;    
+
+    z-index: 3;
+    border-radius: 15px;
+}
+.fondo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('pintura-lago-montana-montana-al-fondo_188544-9126.avif'); /* Reemplaza con la ruta a tu imagen */
+    background-size: cover;
+    background-position: center;
+    z-index: 1; /* Asegura que el fondo esté detrás del contenido */
+}
+
+
